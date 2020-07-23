@@ -10,7 +10,7 @@ h1 {
     font-weight: 600;
     margin-top: 0;
     margin-bottom: -.25rem;
-    font-size: 32pt;
+    font-size: 38pt;
 }
 
 img {
@@ -18,10 +18,14 @@ img {
     -webkit-user-drag: none;
 }
 
+a {
+    cursor: default;
+    -webkit-user-drag: none;
+}
+
 .full-screen section.front {
     background: url("assets//bg.png");
     background-size: cover;
-    background-color: rgb(50, 50, 50);
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
@@ -36,7 +40,14 @@ img {
     color: white;
 }
 
-.title-text img {
+.full-screen .bottom-right {
+    position: absolute;
+    bottom: 25px;
+    text-align: right;
+    right: 25px;
+}
+
+.bottom-right img {
     margin-left: .25rem;
     margin-right: .25rem;
     height: 48px;
@@ -45,38 +56,33 @@ img {
     vertical-align: center;
 }
 
-.title-text img.twitter {
+.bottom-right img.twitter {
     margin-left: -.25rem;
     margin-right: -.25rem;
     height: 56px;
     vertical-align: -4px;
 }
 
-.title-text img.discord {
+.bottom-right img.discord {
     height: 40px;
     vertical-align: 4px;
 }
 
-.title-text img.roblox {
+.bottom-right img.roblox {
     height: 36px;
     vertical-align: 6px;
     filter: brightness(0) invert(1);
 }
 
-.title-text img.email {
+.bottom-right img.email {
     height: 32px;
     vertical-align: 8px;
 }
 
-.title-text a {
-    cursor: default;
-    -webkit-user-drag: none;
-}
-
-.title-text img:hover {
+.bottom-right img:hover {
     opacity: .75;
 }
 
-.title-text img:active {
+.bottom-right img:active {
     opacity: 1;
 }
