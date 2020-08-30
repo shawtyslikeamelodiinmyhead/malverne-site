@@ -9,8 +9,16 @@ html,body {
 h1 {
     font-weight: 600;
     margin-top: 0;
-    margin-bottom: -.25rem;
+    margin-bottom: 0.25rem;
     font-size: 38pt;
+}
+
+h2 {
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: -.25rem;
+    font-size: 16pt;
+    opacity: .75
 }
 
 img {
