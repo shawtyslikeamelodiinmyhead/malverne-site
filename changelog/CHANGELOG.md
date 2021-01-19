@@ -1,3 +1,7 @@
+# [0.0.5](#0.0.5)
+- Fixed tools not unequipping client-side when restrained
+- Throttle/steer now disabled when chatting
+
 # [0.0.4](#0.0.4)
 - Fixed radio not showing up
 - Started showing all nametags (temp)
