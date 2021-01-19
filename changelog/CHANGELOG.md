@@ -1,3 +1,9 @@
+# 0.0.4
+- Fixed radio not showing up
+- Started showing all nametags (temp)
+- Added #players to pause menu
+- Changed up some admin/staff perms
+
 # 0.0.3
 - Fixed pause icon showing when handcuffed
 - Slightly refactored inventory code (stuff could have broke)
