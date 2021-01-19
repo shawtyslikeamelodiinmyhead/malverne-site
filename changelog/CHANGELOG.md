@@ -1,10 +1,10 @@
-# 0.0.4
+# [0.0.4](#0.0.4)
 - Fixed radio not showing up
 - Started showing all nametags (temp)
 - Added #players to pause menu
 - Changed up some admin/staff perms
 
-# 0.0.3
+# [0.0.3](#0.0.3)
 - Fixed pause icon showing when handcuffed
 - Slightly refactored inventory code (stuff could have broke)
 - Can now switch directly between tools
@@ -13,7 +13,7 @@
 - Fixed watermark
 - Misc bug fixes and improvements
 
-# 0.0.2
+# [0.0.2](#0.0.2)
 - Normalized some sound volumes
 - Fixed character glitches on spawn
 - Added footstep sounds based on material
@@ -21,5 +21,5 @@
 - Registered coffee shop as building
 - Misc bug fixes and improvements
 
-# 0.0.1
+# [0.0.1](#0.0.1)
 - Initial release
