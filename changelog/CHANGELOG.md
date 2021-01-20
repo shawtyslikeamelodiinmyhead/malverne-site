@@ -1,4 +1,4 @@
-# Next
+# [0.0.6](#0.0.6) <!--1/19/2021-->
 - Radio now only makes sound if message received on current frequency
 - Fixed vehicle flip key
 - Enable BCSO patches for recruits
