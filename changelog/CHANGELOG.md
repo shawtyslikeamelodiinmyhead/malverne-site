@@ -1,3 +1,9 @@
+# Next
+- Radio now only makes sound if message received on current frequency
+- Fixed vehicle flip key
+- Enable BCSO patches for recruits
+- Slightly decreased ambulances steer rate
+
 # [0.0.5](#0.0.5) <!--1/19/2021-->
 - Fixed tools not unequipping client-side when restrained
 - Throttle/steer now disabled when chatting
