@@ -1,3 +1,29 @@
+# [0.1.0](#0.1.0) <!--1/21/2021-->
+- Vehicle gas!
+    - Added a gas cap to all vehicles except ambulance (will be added in patch)
+    - Drains based on gear and speed. 
+    - It can be filled up at the gas station pumps.
+        - Park outside the pump, turn the engine off, get out, and walk up to the pump.
+        - As of now you can only fill the tank using all of your available cash.
+        - The gas station will be remodeled soon.
+    - When empty, your vehicle will turn off.
+    - It saves with your vehicle.
+    - Vehicles ordered by smallest to largest tank:
+        - Centurion, Patriot, Terragon, Ambulance
+- (Temporarily) removed vehicle ignition-hold
+- Optimized some vehicle code
+- Starting time is now random
+- Centralized random number sources
+- Added error/warning icons in bottom right of HUD
+    - When you see one of these, submit a bug report
+- Changed inventory key from Period to G
+- Slightly increased airhorn volume
+- Adjusted badging color on Patriot
+- Disabled skybox stars during rain
+- Adjusted item & tool throttling
+- Misc bug fixes and improvements
+- Data reset
+
 # [0.0.6](#0.0.6) <!--1/19/2021-->
 - Radio now only makes sound if message received on current frequency
 - Fixed vehicle flip key
