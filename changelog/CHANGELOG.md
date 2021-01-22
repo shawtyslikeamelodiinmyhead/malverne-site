@@ -1,3 +1,7 @@
+# [0.1.2](#0.1.2) <!--1/22/2021-->
+- Vehicle fx and huds should now update properly
+- Made the watermark slighty less visible
+
 # [0.1.1](#0.1.1) <!--1/21/2021-->
 - Fixed gas refueling
 - Fixed loud radio sound when you join
