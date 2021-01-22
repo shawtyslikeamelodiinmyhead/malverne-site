@@ -1,3 +1,10 @@
+# [0.1.1](#0.1.1) <!--1/21/2021-->
+- Fixed gas refueling
+- Fixed loud radio sound when you join
+- Added sound when you start transmitting
+- Increased airhorn volume again
+- Tree leaves now non-collidable
+
 # [0.1.0](#0.1.0) <!--1/21/2021-->
 - Vehicle gas!
     - Added a gas cap to all vehicles except ambulance (will be added in patch)
