@@ -1,3 +1,10 @@
+# [0.1.3](#0.1.3) <!--1/25/2021-->
+- Removed some unimplemented items
+- Added donator symbol in playerlist
+- Fixed some broken doors
+- Adjusted footstep volume
+- Misc bug fixes and improvements
+
 # [0.1.2](#0.1.2) <!--1/22/2021-->
 - Vehicle fx and huds should now update properly
 - Made the watermark slighty less visible
