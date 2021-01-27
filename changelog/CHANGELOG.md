@@ -1,3 +1,6 @@
+# [0.1.4](#0.1.4) <!--1/26/2021-->
+- Recoded oxygen logic-should be able to float safely now.
+
 # [0.1.3](#0.1.3) <!--1/25/2021-->
 - Removed some unimplemented items
 - Added donator symbol in playerlist
