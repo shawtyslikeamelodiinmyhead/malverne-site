@@ -1,3 +1,14 @@
+# [0.2.2](#0.2.2) (2/8/2021)
+- Added a business hours posting in all non-24hr registered buildings that reflects its opening and closing times. (all days are the same)
+- Seats are back, and can be sat in via interaction
+- Gun shop bound to business "Old Line Armory"
+- More gun shop interior work
+- Minor tuning to vehicle steering
+- Locked various unfinished buildings
+- Registered laundromat as a building
+- Fixed a bug that caused not all items to drop on death
+- Anchored some parts that were causing lag
+
 # [0.2.1](#0.2.1) (2/7/2021)
 - Misc bug fixes
 
