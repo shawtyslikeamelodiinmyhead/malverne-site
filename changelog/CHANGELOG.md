@@ -1,3 +1,6 @@
+# [0.2.1](#0.2.1) (2/7/2021)
+- Misc bug fixes
+
 # [0.2.0](#0.2.0) (2/7/2021)
 - Knife, the first weapon
     - 3 attack animations
