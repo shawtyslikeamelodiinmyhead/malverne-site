@@ -1,25 +1,65 @@
-# [0.1.4](#0.1.4) <!--1/26/2021-->
+# [0.2.0](#0.2.0) - 2/7/2021
+- Knife, the first weapon
+    - 3 attack animations
+    - An equip sound, slash sounds, and hit sounds
+    - Does damage when you hit a person, obviously. Pretty basic for now-hitreg may need to be improved.
+    - (Upcoming features):
+        - Breaking glass
+        - Blood effects
+- Vehicle chassis refactor
+    - Torque and acceleration are now factored differently based on gear
+    - Adjusted driving stats of all vehicles (WIP and untested-please provide feedback)
+    - You can drive with keyboard whether you have a controlled plugged in or not
+    - Fixed terragon's torque slope correction (It was backwards)
+    - No longer needs to be unlocked while refueling
+    - Readded hold-ignition to start the car
+    - You can no longer turn the wheel while the car is off
+- New interaction system
+    - New design with a subject name above many interactions now, like "Vehicle" or "Door"
+    - Display texts have all been changed to be more generic, like "Talk" or "Open" rather than "Bank Teller" or "Open Door"
+    - Can now enter vehicles with a tool equipped (it will unequip as you enter. this could be buggy)
+    - It now checks for obstructions between you and the object
+        - For example, you cannot get in cars through walls.
+        - This is bound to be buggy-let us know about any interactions that are hard to select.
+    - Some keys have been switched around
+    - (Upcoming features):
+        - Controller support
+- Terragon specific changes:
+    - BCSO livery created
+    - Third brake light moved to exterior
+    - Raised suspension to make it look bigger (Sorry the model sucks)
+- BCSO fleet changes
+    - -Centurion #18
+    - +Terragon #22
+- Character addons such as BCSO's temporary belt and campaign hat now hide while in a vehicle
+- Dealership default color changed (to encourage players to try colors other than black)
+- Adjusted permissions for various interactions
+- Fixed start menu music randomly breaking
+- All chairs have been temporarily disabled
+- Data reset
+
+# [0.1.4](#0.1.4) - 1/26/2021
 - Recoded oxygen logic-should be able to float safely now.
 
-# [0.1.3](#0.1.3) <!--1/25/2021-->
+# [0.1.3](#0.1.3) - 1/25/2021
 - Removed some unimplemented items
 - Added donator symbol in playerlist
 - Fixed some broken doors
 - Adjusted footstep volume
 - Misc bug fixes and improvements
 
-# [0.1.2](#0.1.2) <!--1/22/2021-->
+# [0.1.2](#0.1.2) - 1/22/2021
 - Vehicle fx and huds should now update properly
 - Made the watermark slighty less visible
 
-# [0.1.1](#0.1.1) <!--1/21/2021-->
+# [0.1.1](#0.1.1) - 1/21/2021
 - Fixed gas refueling
 - Fixed loud radio sound when you join
 - Added sound when you start transmitting
 - Increased airhorn volume again
 - Tree leaves now non-collidable
 
-# [0.1.0](#0.1.0) <!--1/21/2021-->
+# [0.1.0](#0.1.0) - 1/21/2021
 - Vehicle gas!
     - Added a gas cap to all vehicles except ambulance (will be added in patch)
     - Drains based on gear and speed. 
@@ -45,24 +85,24 @@
 - Misc bug fixes and improvements
 - Data reset
 
-# [0.0.6](#0.0.6) <!--1/19/2021-->
+# [0.0.6](#0.0.6) - 1/19/2021
 - Radio now only makes sound if message received on current frequency
 - Fixed vehicle flip key
 - Enable BCSO patches for recruits
 - Slightly decreased ambulances steer rate
 
-# [0.0.5](#0.0.5) <!--1/19/2021-->
+# [0.0.5](#0.0.5) - 1/19/2021
 - Fixed tools not unequipping client-side when restrained
 - Throttle/steer now disabled when chatting
 - Fixed broken billboard code
 
-# [0.0.4](#0.0.4) <!--1/19/2021-->
+# [0.0.4](#0.0.4) - 1/19/2021
 - Fixed radio not showing up
 - Started showing all nametags (temp)
 - Added #players to pause menu
 - Changed up some admin/staff perms
 
-# [0.0.3](#0.0.3) <!--1/18/2021-->
+# [0.0.3](#0.0.3) - 1/18/2021
 - Fixed pause icon showing when handcuffed
 - Slightly refactored inventory code (stuff could have broke)
 - Can now switch directly between tools
@@ -71,7 +111,7 @@
 - Fixed watermark
 - Misc bug fixes and improvements
 
-# [0.0.2](#0.0.2) <!--1/18/2021-->
+# [0.0.2](#0.0.2) - 1/18/2021
 - Normalized some sound volumes
 - Fixed character glitches on spawn
 - Added footstep sounds based on material
@@ -79,5 +119,5 @@
 - Registered coffee shop as building
 - Misc bug fixes and improvements
 
-# [0.0.1](#0.0.1) <!--1/13/2021-->
+# [0.0.1](#0.0.1) - 1/13/2021
 - Initial release
