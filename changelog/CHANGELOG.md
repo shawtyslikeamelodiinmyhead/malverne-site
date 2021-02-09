@@ -1,3 +1,9 @@
+# [0.2.3](#0.2.3) (2/8/2021)
+- Patriot's third brake light moved to exterior
+- Uncuff key logic has changed-rather than having to possess handcuffs, you simply must be clocked in BCSO.
+    - This is ok because civilians will never have access to handcuffs, however they will have access to zipties which are one-time use.
+- Job reception duplication fixed
+
 # [0.2.2](#0.2.2) (2/8/2021)
 - Added a business hours posting in all non-24hr registered buildings that reflects its opening and closing times. (all days are the same)
 - Seats are back, and can be sat in via interaction
