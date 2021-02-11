@@ -1,4 +1,4 @@
-# Next
+# [0.2.5](#0.2.5) (2/11/2021)
 - Rounded the calculated gas price down to the nearest integer
     - We don't want decimal amounts in our economy, for simplicity
 - Rounded up the gas price-it is now $2/u
