@@ -2,6 +2,7 @@
 - Tool equipping, unequipping, and switching *should* be a smoother experience now.
     - This could still be buggy so please mess with the tools a lot and check for errors.
     - I'm still working on getting the viewmodel to appear and disappear at the right time.
+- Removed unused limbs from the knife animations, shouldn't be anything looking frozen anymore.
 - Created a wide bounding box for dropped items
 - Moved interaction positioning a little up
 - Can no longer fuel by extremely miniscule amounts (for UX)
