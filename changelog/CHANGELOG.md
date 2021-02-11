@@ -1,3 +1,10 @@
+# Next
+- Rounded the calculated gas price down to the nearest integer
+    - We don't want decimal amounts in our economy, for simplicity
+- Rounded up the gas price-it is now $2/u
+- Minor rules/tos change
+- Data reset
+
 # [0.2.4](#0.2.4) (2/10/2021)
 - Tool equipping, unequipping, and switching *should* be a smoother experience now.
     - This could still be buggy so please mess with the tools a lot and check for errors.
