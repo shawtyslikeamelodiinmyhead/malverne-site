@@ -1,3 +1,12 @@
+# [0.2.4](#0.2.4) (2/10/2021)
+- Tool equipping, unequipping, and switching *should* be a smoother experience now.
+    - This could still be buggy so please mess with the tools a lot and check for errors.
+    - I'm still working on getting the viewmodel to appear and disappear at the right time.
+- Created a wide bounding box for dropped items
+- Moved interaction positioning a little up
+- Can no longer fuel by extremely miniscule amounts (for UX)
+- Misc client code refactoring
+
 # [0.2.3](#0.2.3) (2/8/2021)
 - Patriot's third brake light moved to exterior
 - Uncuff key logic has changed-rather than having to possess handcuffs, you simply must be clocked in BCSO.
