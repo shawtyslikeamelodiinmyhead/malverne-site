@@ -1,3 +1,13 @@
+# [0.2.6](#0.2.6) (2/12/2021)
+- Changes to interaction system UX
+    - There are now three states to an interaction: Hidden, Disabled, and Enabled
+    - Hidden does not show. Disabled shows faded and red. Enabled shows normally and can be used.
+    - This adjustment was made in hopes that new players will understand that they don't have access to some things, rather than think they are broken. Some interactions will still remain hidden to reduce clutter.
+    - In the future, you will be able to interact with a disabled action to trigger an alternate function. For example, knocking on a locked door.
+- Streetlights turn off a little later in the morning
+- Added a deadzone for controller steering
+- Headlights/reverse lights now emit a warmer white color
+
 # [0.2.5](#0.2.5) (2/11/2021)
 - Rounded the calculated gas price down to the nearest integer
     - We don't want decimal amounts in our economy, for simplicity
