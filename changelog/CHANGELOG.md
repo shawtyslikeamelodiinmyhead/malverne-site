@@ -1,3 +1,18 @@
+# [0.3.0](#0.3.0) (7/10/2021)
+- 5 month hiatus. Sorry 😂
+- Map changes:
+    - Water level raised to better reflect the keys
+    - Beach/park area added in corner of map
+    - Warehouse added
+    - Bridge to island #2 raised
+    - Various lights added around buildings
+- Notification sounds added
+- Vehicle HUD changed to a speedometer
+- Traffic lights
+- Item shop framework + first item shop, the gun store.
+- New transitional randomized weather system.
+- Other things I proobably forgot about over 5 months.....
+
 # [0.2.6](#0.2.6) (2/12/2021)
 - Changes to interaction system UX
     - There are now three states to an interaction: Hidden, Disabled, and Enabled
