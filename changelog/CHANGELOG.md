@@ -3,8 +3,7 @@
 - Character arms and neck are now responsive and face the camera
   - Still working on the smoothing for other character's updates, it's a little wonky at the moment
 - The mouse is now hidden and the camera is locked during use of any tool
-  - Soon, the mouse will be hidden during ALL gameplay except when a popup menu is on your screen
-  - With that, (soon) there will be no HUD that requires a mouse click-everything will be done via keybind
+  - Soon, the mouse will be hidden during ALL gameplay except when a popup menu is on your screen, because there will be no HUD that requires a mouse click.
 - Vehicle windows are now breakable, this does not save for now
 - Streetlight timing fixes
 - Gas pump system should be more consistent
