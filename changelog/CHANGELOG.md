@@ -1,3 +1,12 @@
+# [0.5.0](#0.5.0) (7/21/2021)
+
+- Future lighting enabled, and the game's lighting has been adjusted to make it look better with this mode
+- Some changes to emergency lights
+  - Light sources positioned farther out to avoid large shadows
+  - Window lights now look just like the outside light bars
+- Added spawnitem command for admins
+- Fixed some bugs
+
 # [0.4.0](#0.4.0) (7/17/2021)
 
 - Character arms and neck are now responsive and face the camera
