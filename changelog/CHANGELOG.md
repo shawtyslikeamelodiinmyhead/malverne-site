@@ -6,6 +6,7 @@
   - Window lights now look just like the outside light bars
 - Added spawnitem command for admins
 - Fixed some bugs
+- Data reset
 
 # [0.4.0](#0.4.0) (7/17/2021)
 
