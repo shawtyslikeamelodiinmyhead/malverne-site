@@ -1,3 +1,15 @@
+# [0.6.0](#0.6.0) (7/24/2021)
+
+- Emergency lighting is now less reliant on FPS and should not delay as much when your fps drops
+- Convert status effect meters to roact, also new circular design
+- Most keybinds will now act based on key down rather than key up, this change was made due to community suggestion
+- Changes to ambulance light pattern _-GlocksGaming_
+- Slight changes to flasher lightbar attachments
+- Fixed radio not sending messages
+- Fixed a button sound bug
+- Convert admin notice hud to Roact
+- Changed lock/unlock door key from L to R
+
 # [0.5.0](#0.5.0) (7/21/2021)
 
 - Future lighting enabled, and the game's lighting has been adjusted to make it look better with this mode
