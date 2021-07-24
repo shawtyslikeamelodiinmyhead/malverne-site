@@ -3,6 +3,7 @@
 - Lessened gas depletion rate
 - Lessened oxygen depletion rate
 - Fixed bug where you would hear radio beeps with no radio
+- Fixed bug where you couldn't stop honking
 
 # [0.5.1](#0.5.1) (7/24/2021)
 
