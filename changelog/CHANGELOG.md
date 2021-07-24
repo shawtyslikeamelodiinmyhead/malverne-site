@@ -1,4 +1,4 @@
-# [0.6.0](#0.6.0) (7/24/2021)
+# [0.5.1](#0.5.1) (7/24/2021)
 
 - Emergency lighting is now less reliant on FPS and should not delay as much when your fps drops
 - Convert status effect meters to roact, also new circular design
