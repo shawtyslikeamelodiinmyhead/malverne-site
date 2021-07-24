@@ -1,3 +1,9 @@
+# [0.5.2](#0.5.2) (7/24/2021)
+
+- Lessened gas depletion rate
+- Lessened oxygen depletion rate
+- Fixed bug where you would hear radio beeps with no radio
+
 # [0.5.1](#0.5.1) (7/24/2021)
 
 - Emergency lighting changes
