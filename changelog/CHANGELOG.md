@@ -1,14 +1,18 @@
 # [0.5.1](#0.5.1) (7/24/2021)
 
-- Emergency lighting is now less reliant on FPS and should not delay as much when your fps drops
+- Emergency lighting changes
+  - Less reliant on FPS, should not slow down as much when your FPS drops.
+  - Add alley lights
+  - Fix surfacegui occlusion
+  - Slight changes to flasher lightbar attahcments
+  - Changes to ambulance pattern _-GlocksGaming_
 - Convert status effect meters to roact, also new circular design
 - Most keybinds will now act based on key down rather than key up, this change was made due to community suggestion
-- Changes to ambulance light pattern _-GlocksGaming_
-- Slight changes to flasher lightbar attachments
 - Fixed radio not sending messages
 - Fixed a button sound bug
 - Convert admin notice hud to Roact
 - Changed lock/unlock door key from L to R
+- Removed blue color shift from night, orange morning color shift will remain
 
 # [0.5.0](#0.5.0) (7/21/2021)
 
