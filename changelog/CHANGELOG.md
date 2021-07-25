@@ -1,3 +1,12 @@
+# [0.5.3](#0.5.3) (7/24/2021)
+
+- Rewrote car steering.
+  - Not reliant on FPS anymore, and should be more responsive also
+  - Can also turn now when engine is off, just not when in park.
+  - The vaLues still could use tweaking, let me know!
+- Auto-equip the keychain on spawn.
+- Fixed some dynamic arm bugs
+
 # [0.5.2](#0.5.2) (7/24/2021)
 
 - Lessened gas depletion rate
@@ -18,7 +27,7 @@
 - Fixed radio not sending messages
 - Fixed a button sound bug
 - Convert admin notice hud to Roact
-- Changed lock/unlock door key from L to R
+- Changed keychain key from L to R
 - Removed blue color shift from night, orange morning color shift will remain
 
 # [0.5.0](#0.5.0) (7/21/2021)
