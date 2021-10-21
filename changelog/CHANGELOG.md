@@ -1,4 +1,4 @@
-# [0.6.0](#0.6.0) (8/11/2021)
+# [0.6.0](#0.6.0) (10/20/2021)
 
 - Converted most UI to Roact framework. Some changes as a result:
   - You can no longer despawn occupied cars
