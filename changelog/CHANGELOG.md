@@ -1,8 +1,22 @@
+# [0.6.0](#0.6.0) (8/11/2021)
+
+- Converted most UI to Roact framework. Some changes as a result:
+  - You cannot pick a spawn anymore. For now, you will be spawned randomly around the map unless you were on a team when you left
+  - You can no longer despawn occupied cars
+  - BCSO/BCFR fleet manager: Did away with the "sign in, sign out" system, you can now spawn or despawn any vehicle so long as it is not occupied, but it will show you who took out one that is spawned.
+    - This was mostly done for simplicity reasons as well as compatibility with BCFR—before, for example, if the spawner of an ambulance left, the ambulance would disappear, leaving the rest of the crew stranded. This will no longer happen as it is attached to the team itself, not the player.
+- Very basic gun framework is in. The Colby .45 has been added and can be purchased at the gun store in Leesburg.
+- Updated knife hit detection
+- Made night slightly brighter - Still experimenting
+- Different notification sound for money-related events
+- Fixed bug where rain would appear during transition to rainy weather before the clouds actually appeared
+- You can now fall of the map and die without having to rejoin
+
 # [0.5.3](#0.5.3) (7/24/2021)
 
-- Rewrote car steering.
+- Rescripted car steering
   - Not reliant on FPS anymore, and should be more responsive also
-  - Can also turn now when engine is off, just not when in park.
+  - Can also turn now when engine is off, just not when in park
   - The vaLues still could use tweaking, let me know!
 - Auto-equip the keychain on spawn.
 - Fixed some dynamic arm bugs
