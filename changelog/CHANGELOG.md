@@ -3,6 +3,7 @@
 - Shotgun has been added
 - Shotgun ammo has been added
 - New confirmation dialog UI for various purposes
+- Swapped out some menu songs
 - Misc bug fixes
 
 # [0.6.0](#0.6.0) (10/20/2021)
