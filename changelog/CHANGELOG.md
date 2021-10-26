@@ -1,3 +1,10 @@
+# [0.6.1](#0.6.1) (10/26/2021)
+
+- Shotgun has been added
+- Shotgun ammo has been added
+- New confirmation dialog UI for various purposes
+- Misc bug fixes
+
 # [0.6.0](#0.6.0) (10/20/2021)
 
 - Converted most UI to Roact framework. Some changes as a result:
