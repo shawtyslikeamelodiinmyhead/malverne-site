@@ -1,4 +1,4 @@
-# [0.6.2](#0.6.2) ()
+# [0.6.2](#0.6.2) (12/20/2021)
 
 - New weapon stuff:
   - Weapons now easily usable in third person with a proper camera and control system
