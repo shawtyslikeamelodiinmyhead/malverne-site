@@ -1,3 +1,12 @@
+# [0.6.2](#0.6.2) ()
+
+- New weapon stuff:
+  - Weapons now easily usable in third person with a proper camera and control system
+  - Basic reload animations added
+  - Hit particles added (for surfaces and people)
+- Knife perf optimization and improved hit detection.. still working on way to improve this
+- Removed a lot of unnecessary prints from the client/server output so errors & warnings are more visible
+
 # [0.6.1](#0.6.1) (10/26/2021)
 
 - Shotgun has been added
