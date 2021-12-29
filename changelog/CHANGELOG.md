@@ -1,3 +1,20 @@
+# [0.7.0](#0.7.0)
+
+- Tool-related changes:
+  - Added radar gun
+  - Added pepper spray
+  - Tools are now automatically equipped into a slot upon picking up. This means that you cannot pick up more tools that would fit in that
+    slot, unless it is an "extra", of which you can hold 6 of (for now)
+  - Some select tools and items now appear as visible accessories on the character, so you can tell if someone is armed for example
+- UI-related changes:
+  - Start menu converted to Roact with a new, fresh design that is a work in progress
+  - Added a short intro logo sequence after you load in
+  - Switched from Cmdr to Zircon for both commands and logging
+  - Fixed bug where tool data would show when not equipped
+- Misc:
+  - Basic ammo box model added for item drops
+  - Got rid of the lava in the second island town area, and filled it with trees for now, until it is developed
+
 # [0.6.2](#0.6.2) (12/20/2021)
 
 - New weapon stuff:
