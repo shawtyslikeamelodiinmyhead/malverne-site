@@ -1,4 +1,4 @@
-# [0.7.0](#0.7.0)
+# [0.7.0](#0.7.0) (12/29/2021)
 
 - Tool-related changes:
   - Added radar gun
