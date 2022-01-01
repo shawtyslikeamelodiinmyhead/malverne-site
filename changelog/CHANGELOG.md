@@ -20,6 +20,9 @@
 - Speedometer recolored white
 - Meters like stamina, health, oxygen moved to bottom left of screen
 - The toolbar now fades out rather than completely disappearing when tools are unavailable (in a car or menu)
+- Added countdown to the rules menu before you can agree
+- Fixed issue with not being able to go through fire doors sometimes
+- Doors to buildings now properly lock and close when the business is closed
 
 # [0.7.0](#0.7.0) (12/29/2021)
 
