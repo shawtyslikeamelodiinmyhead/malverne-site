@@ -1,3 +1,26 @@
+# [0.7.1](#0.7.1)
+
+- Trying out some new color changes referencing pictures of the Keys:
+  - Grass, ground and tree leaves colors slightly lightened
+  - Road and sidewalk colors made slightly warmer tone
+- Added network optimizations for: dropping items, gun fx, knife fx, character vectors, other things...
+- Fixed various tool bugs
+- Fixed an issue with premature character loading
+- Fixed item shop selection bug
+- Fixed spme bugs with accessories
+- Player joined/left notification re-added
+- Removed 9mm ammo/gun from the shop because they are not usable yet
+- Fixed weather not affecting atmosphere density (fog)... it used to do this months ago but somehow I accidentally deleted the code
+- Fixed the issue with deaths not triggering when standing still
+- Increased amount of bullet hit particles spawned, with lots of blood coming out when you headshot/stab people
+- The start menu now has around 15 different view points it cycles through
+- Using new api for car spawn pad checking, its now fixed!
+- More car spawn pads at leesburg dealership
+- Converted some valuebase-based stuff to attributes
+- Speedometer recolored white
+- Meters like stamina, health, oxygen moved to bottom left of screen
+- The toolbar now fades out rather than completely disappearing when tools are unavailable (in a car or menu)
+
 # [0.7.0](#0.7.0) (12/29/2021)
 
 - Tool-related changes:
