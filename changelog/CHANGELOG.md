@@ -23,6 +23,8 @@
 - Added countdown to the rules menu before you can agree
 - Fixed issue with not being able to go through fire doors sometimes
 - Doors to buildings now properly lock and close when the business is closed
+- Experimenting with gunshot volume by distance
+- Fixed bug where unlocking/locking doors/car doors would not refresh the open prompt
 
 # [0.7.0](#0.7.0) (12/29/2021)
 
