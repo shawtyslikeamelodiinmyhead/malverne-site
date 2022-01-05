@@ -1,32 +1,49 @@
-# [0.7.1](#0.7.1)
+## [8.0.0](#8.0.0)
 
-- Trying out some new color changes referencing pictures of the Keys:
-  - Grass, ground and tree leaves colors slightly lightened
-  - Road and sidewalk colors made slightly warmer tone
-- Added network optimizations for: dropping items, gun fx, knife fx, character vectors, other things...
+### Added:
+
+- Network optimizations everywhere
+- Work in progress BCSO station
+- Player connected/disconnected notification
+- Weather now affects atmosphere density
+- More start menu view points
+- Countdown before you can agree to the rules
+- New ATM, Bank menus
+  - Bank transfers enabled
+- More car spawn pads at Leesburg car dealership
+
+### Changed:
+
+- Major framework refactoring
+- Grass, ground and tree leaves colors slightly lightened
+- Road and sidewalk colors made slightly warmer tone
+- All exterior doors now open outward due to Florida Building Code
+- Increased amount of bullet hit particles spawned, with lots of blood coming out when you headshot/stab people
+- Speedometer recolored white
+- Meters like stamina, health, oxygen moved to bottom left of screen
+- The toolbar now fades out rather than completely disappearing when tools are unavailable (in a car or menu)
+- Experimenting with gunshot volume by distance
+
+### Fixed:
+
 - Fixed various tool bugs
 - Fixed an issue with premature character loading
 - Fixed item shop selection bug
 - Fixed spme bugs with accessories
-- Player joined/left notification re-added
-- Removed 9mm ammo/gun from the shop because they are not usable yet
 - Fixed weather not affecting atmosphere density (fog)... it used to do this months ago but somehow I accidentally deleted the code
 - Fixed the issue with deaths not triggering when standing still
-- Increased amount of bullet hit particles spawned, with lots of blood coming out when you headshot/stab people
-- The start menu now has around 15 different view points it cycles through
 - Using new api for car spawn pad checking, its now fixed!
-- More car spawn pads at leesburg dealership
-- Converted some valuebase-based stuff to attributes
-- Speedometer recolored white
-- Meters like stamina, health, oxygen moved to bottom left of screen
-- The toolbar now fades out rather than completely disappearing when tools are unavailable (in a car or menu)
-- Added countdown to the rules menu before you can agree
 - Fixed issue with not being able to go through fire doors sometimes
 - Doors to buildings now properly lock and close when the business is closed
-- Experimenting with gunshot volume by distance
 - Fixed bug where unlocking/locking doors/car doors would not refresh the open prompt
 
-# [0.7.0](#0.7.0) (12/29/2021)
+### Removed:
+
+- 9MM ammo & gun removed from shop (as they have not been completed yet)
+
+Keep in mind some particle and light effects may be bugged or delayed due to this: https://devforum.roblox.com/t/particles-beams-and-trails-all-disappearing-not-disappearing-when-supposed-to-and-causing-performance-issues/1584372/68
+
+## [0.7.0](#0.7.0) (12/29/2021)
 
 - Tool-related changes:
   - Added radar gun
@@ -45,7 +62,7 @@
   - Got rid of the lava in the second island town area, and filled it with trees for now, until it is developed.
   - Data reset
 
-# [0.6.2](#0.6.2) (12/20/2021)
+## [0.6.2](#0.6.2) (12/20/2021)
 
 - New weapon stuff:
   - Weapons now easily usable in third person with a proper camera and control system
@@ -54,7 +71,7 @@
 - Knife perf optimization and improved hit detection.. still working on way to improve this
 - Removed a lot of unnecessary prints from the client/server output so errors & warnings are more visible
 
-# [0.6.1](#0.6.1) (10/26/2021)
+## [0.6.1](#0.6.1) (10/26/2021)
 
 - Shotgun has been added
 - Shotgun ammo has been added
@@ -62,7 +79,7 @@
 - Swapped out some menu songs
 - Misc bug fixes
 
-# [0.6.0](#0.6.0) (10/20/2021)
+## [0.6.0](#0.6.0) (10/20/2021)
 
 - Converted most UI to Roact framework. Some changes as a result:
   - You can no longer despawn occupied cars
@@ -75,7 +92,7 @@
 - Fixed bug where rain would appear during transition to rainy weather before the clouds actually appeared
 - You can now fall of the map and die without having to rejoin
 
-# [0.5.3](#0.5.3) (7/24/2021)
+## [0.5.3](#0.5.3) (7/24/2021)
 
 - Rescripted car steering
   - Not reliant on FPS anymore, and should be more responsive also
@@ -84,14 +101,14 @@
 - Auto-equip the keychain on spawn.
 - Fixed some dynamic arm bugs
 
-# [0.5.2](#0.5.2) (7/24/2021)
+## [0.5.2](#0.5.2) (7/24/2021)
 
 - Lessened gas depletion rate
 - Lessened oxygen depletion rate
 - Fixed bug where you would hear radio beeps with no radio
 - Fixed bug where you couldn't stop honking
 
-# [0.5.1](#0.5.1) (7/24/2021)
+## [0.5.1](#0.5.1) (7/24/2021)
 
 - Emergency lighting changes
   - Less reliant on FPS, should not slow down as much when your FPS drops.
@@ -107,7 +124,7 @@
 - Changed keychain key from L to R
 - Removed blue color shift from night, orange morning color shift will remain
 
-# [0.5.0](#0.5.0) (7/21/2021)
+## [0.5.0](#0.5.0) (7/21/2021)
 
 - Future lighting enabled, and the game's lighting has been adjusted to make it look better with this mode
 - Some changes to emergency lights
@@ -117,7 +134,7 @@
 - Fixed some bugs
 - Data reset
 
-# [0.4.0](#0.4.0) (7/17/2021)
+## [0.4.0](#0.4.0) (7/17/2021)
 
 - Character arms and neck are now responsive and face the camera
   - Still working on the smoothing for other character's updates, it's a little wonky at the moment
@@ -127,7 +144,7 @@
 - Streetlight timing fixes
 - Gas pump system should be more consistent
 
-# [0.3.0](#0.3.0) (7/10/2021)
+## [0.3.0](#0.3.0) (7/10/2021)
 
 - 5 month hiatus. Sorry 😂
 - Map changes:
@@ -143,7 +160,7 @@
 - New transitional randomized weather system.
 - Other things I proobably forgot about over 5 months.....
 
-# [0.2.6](#0.2.6) (2/12/2021)
+## [0.2.6](#0.2.6) (2/12/2021)
 
 - Changes to interaction system UX
   - There are now three states to an interaction: Hidden, Disabled, and Enabled
@@ -154,7 +171,7 @@
 - Added a deadzone for controller steering
 - Headlights/reverse lights now emit a warmer white color
 
-# [0.2.5](#0.2.5) (2/11/2021)
+## [0.2.5](#0.2.5) (2/11/2021)
 
 - Rounded the calculated gas price down to the nearest integer
   - We don't want decimal amounts in our economy, for simplicity
@@ -162,7 +179,7 @@
 - Minor rules/tos change
 - Data reset
 
-# [0.2.4](#0.2.4) (2/10/2021)
+## [0.2.4](#0.2.4) (2/10/2021)
 
 - Tool equipping, unequipping, and switching _should_ be a smoother experience now.
   - This could still be buggy so please mess with the tools a lot and check for errors.
@@ -173,14 +190,14 @@
 - Can no longer fuel by extremely miniscule amounts (for UX)
 - Misc client code refactoring
 
-# [0.2.3](#0.2.3) (2/8/2021)
+## [0.2.3](#0.2.3) (2/8/2021)
 
 - Patriot's third brake light moved to exterior
 - Uncuff key logic has changed-rather than having to possess handcuffs, you simply must be clocked in BCSO.
   - This is ok because civilians will never have access to handcuffs, however they will have access to zipties which are one-time use.
 - Job reception duplication fixed
 
-# [0.2.2](#0.2.2) (2/8/2021)
+## [0.2.2](#0.2.2) (2/8/2021)
 
 - Added a business hours posting in all non-24hr registered buildings that reflects its opening and closing times. (all days are the same)
 - Seats are back, and can be sat in via interaction
@@ -192,11 +209,11 @@
 - Fixed a bug that caused not all items to drop on death
 - Anchored some parts that were causing lag
 
-# [0.2.1](#0.2.1) (2/7/2021)
+## [0.2.1](#0.2.1) (2/7/2021)
 
 - Misc bug fixes
 
-# [0.2.0](#0.2.0) (2/7/2021)
+## [0.2.0](#0.2.0) (2/7/2021)
 
 - Knife, the first weapon
   - 3 attack animations
@@ -237,11 +254,11 @@
 - All chairs have been temporarily disabled
 - Data reset
 
-# [0.1.4](#0.1.4) (1/26/2021)
+## [0.1.4](#0.1.4) (1/26/2021)
 
 - Recoded oxygen logic-should be able to float safely now.
 
-# [0.1.3](#0.1.3) (1/25/2021)
+## [0.1.3](#0.1.3) (1/25/2021)
 
 - Removed some unimplemented items
 - Added donator symbol in playerlist
@@ -249,12 +266,12 @@
 - Adjusted footstep volume
 - Misc bug fixes and improvements
 
-# [0.1.2](#0.1.2) (1/22/2021)
+## [0.1.2](#0.1.2) (1/22/2021)
 
 - Vehicle fx and huds should now update properly
 - Made the watermark slighty less visible
 
-# [0.1.1](#0.1.1) (1/21/2021)
+## [0.1.1](#0.1.1) (1/21/2021)
 
 - Fixed gas refueling
 - Fixed loud radio sound when you join
@@ -262,7 +279,7 @@
 - Increased airhorn volume again
 - Tree leaves now non-collidable
 
-# [0.1.0](#0.1.0) (1/21/2021)
+## [0.1.0](#0.1.0) (1/21/2021)
 
 - Vehicle gas!
   - Added a gas cap to all vehicles except ambulance (will be added in patch)
@@ -289,27 +306,27 @@
 - Misc bug fixes and improvements
 - Data reset
 
-# [0.0.6](#0.0.6) (1/19/2021)
+## [0.0.6](#0.0.6) (1/19/2021)
 
 - Radio now only makes sound if message received on current frequency
 - Fixed vehicle flip key
 - Enable BCSO patches for recruits
 - Slightly decreased ambulances steer rate
 
-# [0.0.5](#0.0.5) (1/19/2021)
+## [0.0.5](#0.0.5) (1/19/2021)
 
 - Fixed tools not unequipping client-side when restrained
 - Throttle/steer now disabled when chatting
 - Fixed broken billboard code
 
-# [0.0.4](#0.0.4) (1/19/2021)
+## [0.0.4](#0.0.4) (1/19/2021)
 
 - Fixed radio not showing up
 - Started showing all nametags (temp)
 - Added #players to pause menu
 - Changed up some admin/staff perms
 
-# [0.0.3](#0.0.3) (1/18/2021)
+## [0.0.3](#0.0.3) (1/18/2021)
 
 - Fixed pause icon showing when handcuffed
 - Slightly refactored inventory code (stuff could have broke)
@@ -319,7 +336,7 @@
 - Fixed watermark
 - Misc bug fixes and improvements
 
-# [0.0.2](#0.0.2) (1/18/2021)
+## [0.0.2](#0.0.2) (1/18/2021)
 
 - Normalized some sound volumes
 - Fixed character glitches on spawn
@@ -328,6 +345,6 @@
 - Registered coffee shop as building
 - Misc bug fixes and improvements
 
-# [0.0.1](#0.0.1) (1/13/2021)
+## [0.0.1](#0.0.1) (1/13/2021)
 
 - Initial release
