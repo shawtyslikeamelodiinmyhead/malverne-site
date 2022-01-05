@@ -11,6 +11,7 @@
 - New ATM, Bank menus
   - Bank transfers enabled
 - More car spawn pads at Leesburg car dealership
+- Ability for law enforcement to issue citations
 
 ### Changed:
 
@@ -23,13 +24,14 @@
 - Meters like stamina, health, oxygen moved to bottom left of screen
 - The toolbar now fades out rather than completely disappearing when tools are unavailable (in a car or menu)
 - Experimenting with gunshot volume by distance
+- The bottom row HUD with time/compass/version has been made larger
 
 ### Fixed:
 
 - Fixed various tool bugs
 - Fixed an issue with premature character loading
 - Fixed item shop selection bug
-- Fixed spme bugs with accessories
+- Fixed some bugs with accessories
 - Fixed weather not affecting atmosphere density (fog)... it used to do this months ago but somehow I accidentally deleted the code
 - Fixed the issue with deaths not triggering when standing still
 - Using new api for car spawn pad checking, its now fixed!
