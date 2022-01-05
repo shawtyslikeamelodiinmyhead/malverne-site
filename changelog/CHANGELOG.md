@@ -5,7 +5,6 @@
 - Network optimizations everywhere
 - Work in progress BCSO station
 - Player connected/disconnected notification
-- Weather now affects atmosphere density
 - More start menu view points
 - Countdown before you can agree to the rules
 - New ATM, Bank menus
