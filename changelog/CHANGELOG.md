@@ -11,6 +11,10 @@
   - Bank transfers enabled
 - More car spawn pads at Leesburg car dealership
 - Ability for law enforcement to issue citations
+- Electrical boxes on street light poles
+  - They can be interacted with by select teams to make the lights flash red
+- Ability to drag players when they are in handcuffs and place/take them out of vehicles
+- More icons to speedometer hud to reflect locks, ignition, and engine
 
 ### Changed:
 
@@ -24,6 +28,7 @@
 - The toolbar now fades out rather than completely disappearing when tools are unavailable (in a car or menu)
 - Experimenting with gunshot volume by distance
 - The bottom row HUD with time/compass/version has been made larger
+- Some buildings had windows in tight alleys, these windows have been removed
 
 ### Fixed:
 
@@ -36,13 +41,14 @@
 - Using new api for car spawn pad checking, its now fixed!
 - Fixed issue with not being able to go through fire doors sometimes
 - Doors to buildings now properly lock and close when the business is closed
-- Fixed bug where unlocking/locking doors/car doors would not refresh the open prompt
 
 ### Removed:
 
 - 9MM ammo & gun removed from shop (as they have not been completed yet)
 
 Keep in mind some particle and light effects may be bugged or delayed due to this: https://devforum.roblox.com/t/particles-beams-and-trails-all-disappearing-not-disappearing-when-supposed-to-and-causing-performance-issues/1584372/68
+
+Data has also been reset
 
 ## [0.7.0](#0.7.0) (12/29/2021)
 
