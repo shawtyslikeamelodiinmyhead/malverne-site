@@ -11,6 +11,7 @@
   - Bank transfers enabled
 - More car spawn pads at Leesburg car dealership
 - Ability for law enforcement to issue citations
+- Ability for civilians to pay citations at the Sheriff's Office (until courthouse is built)
 - Electrical boxes on street light poles
   - They can be interacted with by select teams to make the lights flash red
 - Ability to drag players when they are in handcuffs and place/take them out of vehicles
@@ -29,6 +30,7 @@
 - Experimenting with gunshot volume by distance
 - The bottom row HUD with time/compass/version has been made larger
 - Some buildings had windows in tight alleys, these windows have been removed
+- Dropped items now disappear after a few minutes
 
 ### Fixed:
 
