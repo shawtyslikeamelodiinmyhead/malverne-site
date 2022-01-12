@@ -16,6 +16,7 @@
   - They can be interacted with by select teams to make the lights flash red
 - Ability to drag players when they are in handcuffs and place/take them out of vehicles
 - More icons to speedometer hud to reflect locks, ignition, and engine
+- Pay rates depending on rank, definitely temporary and will be adjusted
 
 ### Changed:
 
