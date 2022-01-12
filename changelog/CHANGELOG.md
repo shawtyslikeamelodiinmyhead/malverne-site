@@ -40,9 +40,10 @@
 - Fixed some bugs with accessories
 - Fixed weather not affecting atmosphere density (fog)... it used to do this months ago but somehow I accidentally deleted the code
 - Fixed the issue with deaths not triggering when standing still
-- Using new api for car spawn pad checking, its now fixed!
+- Car spawn pad checking
 - Fixed issue with not being able to go through fire doors sometimes
 - Doors to buildings now properly lock and close when the business is closed
+- Radio now scrolls down when there is a new message
 
 ### Removed:
 
