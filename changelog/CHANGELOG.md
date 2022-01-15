@@ -17,6 +17,9 @@
 - Ability to drag players when they are in handcuffs and place/take them out of vehicles
 - More icons to speedometer hud to reflect locks, ignition, and engine
 - Pay rates depending on rank, definitely temporary and will be adjusted
+- Overhauled inventory system and abstracted it away from players, with new additions like:
+  - Vehicle inventories
+  - ... with frisking coming soon
 
 ### Changed:
 
@@ -45,6 +48,7 @@
 - Fixed issue with not being able to go through fire doors sometimes
 - Doors to buildings now properly lock and close when the business is closed
 - Radio now scrolls down when there is a new message
+- Misc UI fixes
 
 ### Removed:
 
