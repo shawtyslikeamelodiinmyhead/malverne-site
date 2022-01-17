@@ -36,6 +36,7 @@
 - The bottom row HUD with time/compass/version has been made larger
 - Some buildings had windows in tight alleys, these windows have been removed
 - Dropped items now disappear after a few minutes
+- Increase pepper spray range
 
 ### Fixed:
 
