@@ -5,6 +5,7 @@
 - Network optimizations everywhere
 - Work in progress BCSO station
 - Player connected/disconnected notification
+- Fire Rescue uniforms
 - More start menu view points
 - Countdown before you can agree to the rules
 - New ATM, Bank, Uniform Locker menus
