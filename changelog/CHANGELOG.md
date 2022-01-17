@@ -7,7 +7,7 @@
 - Player connected/disconnected notification
 - More start menu view points
 - Countdown before you can agree to the rules
-- New ATM, Bank menus
+- New ATM, Bank, Uniform Locker menus
   - Bank transfers enabled
 - More car spawn pads at Leesburg car dealership
 - Ability for law enforcement to issue citations
@@ -18,6 +18,7 @@
 - More icons to speedometer hud to reflect locks, ignition, and engine
 - Pay rates depending on rank, definitely temporary and will be adjusted
 - Overhauled inventory system and abstracted it away from players, with new additions like:
+  - A team gear locker menu (aka armory for BCSO)
   - Vehicle inventories
   - ... with frisking coming soon
 
