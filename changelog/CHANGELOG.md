@@ -38,6 +38,7 @@
 - Some buildings had windows in tight alleys, these windows have been removed
 - Dropped items now disappear after a few minutes
 - Increase pepper spray range
+- Car engines now only cold start on the first start
 
 ### Fixed:
 
