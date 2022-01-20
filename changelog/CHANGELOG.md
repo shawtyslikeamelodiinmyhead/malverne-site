@@ -39,6 +39,8 @@
 - Dropped items now disappear after a few minutes
 - Increase pepper spray range
 - Car engines now only cold start on the first start
+- Vehicles can now be exited while locked unless handcuffed
+- Vehicle locks can now be controlled by the front passenger
 
 ### Fixed:
 
