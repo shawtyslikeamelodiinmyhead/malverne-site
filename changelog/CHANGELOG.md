@@ -18,6 +18,7 @@
 - Ability to drag players when they are in handcuffs and place/take them out of vehicles
 - More icons to speedometer hud to reflect locks, ignition, and engine
 - Pay rates depending on rank, definitely temporary and will be adjusted
+- Gas can tool, which can be filled up at gas pumps and used to fill up vehicle tanks
 - Overhauled inventory system and abstracted it away from players, with new additions like:
   - A team gear locker menu (aka armory for BCSO)
   - Vehicle inventories
