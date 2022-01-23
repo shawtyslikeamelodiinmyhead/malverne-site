@@ -15,7 +15,7 @@
   - Issue citations
   - Handcuff, drag, and put/take players out of vehicles
   - Place detainees in holding cells
-  - Book detainees (NOT IMPLEMENTED YET. WILL BE ADDED IN AN EMERGENCY PATCH. FOR NOW, LEAVE THEM IN THE HOLDING CELL FOR A FEW MINUTES.)
+  - (BOOKING NOT IMPLEMENTED YET. WILL BE ADDED IN AN EMERGENCY PATCH. FOR NOW, LEAVE THEM IN THE HOLDING CELL FOR A FEW MINUTES.)
 - Ability for civilians to pay citations at the Sheriff's Office (until courthouse is built)
 - Electrical boxes on street light poles
   - They can be interacted with by select teams to make the lights flash red
