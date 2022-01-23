@@ -1,3 +1,18 @@
+## [0.8.1](#0.8.1)
+
+### Added:
+
+- Flashlight/radio added to BCFR gear locker
+
+### Changed:
+
+- Most of the UI will now only render when it is in use rather than continuously
+
+### Fixed:
+
+- Fixed issue where you could get in your car right after pulling out a tool (_Thanks connor8033_)
+- Fixed misc errors (_Thanks ii_PoliceLaws, Br1452232_)
+
 ## [0.8.0](#0.8.0)
 
 ### Added:
