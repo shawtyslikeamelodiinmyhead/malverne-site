@@ -11,11 +11,14 @@
 - New ATM, Bank, Uniform Locker menus
   - Bank transfers enabled
 - More car spawn pads at Leesburg car dealership
-- Ability for law enforcement to issue citations
+- Ability for law enforcement to:
+  - Issue citations
+  - Handcuff, drag, and put/take players out of vehicles
+  - Place detainees in holding cells
+  - Book detainees (NOT IMPLEMENTED YET. WILL BE ADDED IN AN EMERGENCY PATCH. FOR NOW, LEAVE THEM IN THE HOLDING CELL FOR A FEW MINUTES.)
 - Ability for civilians to pay citations at the Sheriff's Office (until courthouse is built)
 - Electrical boxes on street light poles
   - They can be interacted with by select teams to make the lights flash red
-- Ability to drag players when they are in handcuffs and place/take them out of vehicles
 - More icons to speedometer hud to reflect locks, ignition, and engine
 - Pay rates depending on rank, definitely temporary and will be adjusted
 - Gas can tool, which can be filled up at gas pumps and used to fill up vehicle tanks
