@@ -1,4 +1,4 @@
-## [0.9.1](#0.9.1)
+## [0.9.1](#0.9.1) (1/26/2022)
 
 ### Fixed
 
@@ -7,7 +7,7 @@
 
 Data has been reset
 
-## [0.9.0](#0.9.0)
+## [0.9.0](#0.9.0) (1/26/2022)
 
 ### Added:
 
@@ -27,7 +27,7 @@ Data has been reset
 
 Data has also been reset
 
-## [0.8.1](#0.8.1)
+## [0.8.1](#0.8.1) (1/22/2022)
 
 ### Added:
 
@@ -42,7 +42,7 @@ Data has also been reset
 - Fixed issue where you could get in your car right after pulling out a tool (_Thanks connor8033_)
 - Fixed misc errors (_Thanks ii_PoliceLaws, Br1452232_)
 
-## [0.8.0](#0.8.0)
+## [0.8.0](#0.8.0) (1/22/2022)
 
 ### Added:
 
