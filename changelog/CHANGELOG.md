@@ -20,6 +20,7 @@ Data has been reset
 
 - Players with felonies can no longer purchase firearms from the legal gun stores, and must resort to other methods (TBA)
 - Hardcoded a limit of 60 minutes for arrests and $1000 for citations, to prevent abuse (Experimental)
+- Civilians are now paid $6 instead of $12
 
 ### Fixed:
 
