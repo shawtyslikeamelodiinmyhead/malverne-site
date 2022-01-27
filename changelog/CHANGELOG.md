@@ -10,7 +10,7 @@
 ### Changed:
 
 - Players with felonies can no longer purchase firearms from the legal gun stores, and must resort to other methods (TBA)
-- Hardcoded a limit of 60 minutes for arrests and $1000 for citations, to prevent abuse
+- Hardcoded a limit of 60 minutes for arrests and $1000 for citations, to prevent abuse (Experimental)
 
 ### Fixed:
 
