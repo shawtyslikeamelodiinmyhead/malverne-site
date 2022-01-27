@@ -1,3 +1,10 @@
+## [0.9.1](#0.9.1)
+
+### Fixed
+
+- Fixed critical data error
+- Fixed cash not being removed on arrest
+
 ## [0.9.0](#0.9.0)
 
 ### Added:
