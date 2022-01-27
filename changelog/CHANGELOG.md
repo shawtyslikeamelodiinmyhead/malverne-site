@@ -1,3 +1,23 @@
+## [0.9.0](#0.9.0)
+
+### Added:
+
+- Players can now be booked and incarcerated by law enforcement
+- Law enforcement can now perform a records query at a computer in their station
+  - Includes citations, arrests, registered vehicles, and other miscellaneous info (as of now, vehicles are automatically registered when you buy them)
+  - More computers in the BCSO station once we continue to model it, but you can use the booking computers for now
+
+### Changed:
+
+- Players with felonies can no longer purchase firearms from the legal gun stores, and must resort to other methods (TBA)
+- Hardcoded a limit of 60 minutes for arrests and $1000 for citations, to prevent abuse
+
+### Fixed:
+
+- Miscellaneous item/tool related bugs
+
+Data has also been reset
+
 ## [0.8.1](#0.8.1)
 
 ### Added:
