@@ -1,3 +1,37 @@
+## [0.10.0](#0.10.0) (2/1/2022)
+
+### Added
+
+- Law enforcement may now frisk people. Frisking is a quick action that can be done on a non-handcuffed person that simply tells you if they have a weapon.
+- Law enforcement may now search people. Searching can be done on handcuffed individuals that one is dragging and brings up a full inventory display of that person, with the ability to, for now, drop the target's items onto the floor.
+- New town on Coral Key off US 1, dubbed Delfino (Unfinished just like Leesburg so it has plenty of mock buildings)
+  - Has a used car dealership where you can find vehicles for cheaper but in limited colors (other disadvantages to buying "used" will be added soon), as well as spawn vehicles
+  - Has a dock (with a couple more coming soon)
+  - More rural feel for this town
+- Leesburg Used Cars rebranded to Leesburg Aerostar (Now only sells Aerostar vehicles), now has an interior
+- A couple buildings now have interiors
+- Ambulance vehicle inventory can now be accessed through on the driver's side rear storage
+- One more patrol car added to BCSO fleet
+
+### Changed
+
+- All road lines are no longer 3D and have been converted to decals directly ontop of the road
+- Some of the county/town government pay has been adjusted
+- BCSO uniform patch/badge refreshed
+- Civilian spawn locations rearranged
+- Broken glass now regen around 5 minutes after it is broken
+- Opened doors now close around 30 seconds after they are opened
+- Several building windows have been separated into multiple parts so that they can be individually broken
+- All team-related actions have now been switched to the group. Now, the only use for "Clocking In" is getting paid, you can still access everything otherwise
+- BCFR command vehicle now uses same siren as ambulance
+- The server will now always start at 12 PM, that way new players can get more oriented because most businesses will be open
+- Patriots with a topper (Aka the BCFR command vehicle) no longer have bed seating
+
+### Fixed
+
+- Some fences/poles that weren't collidable
+- Cars (should) no longer move when getting in/out
+
 ## [0.9.1](#0.9.1) (1/26/2022)
 
 ### Fixed
