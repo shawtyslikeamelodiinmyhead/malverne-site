@@ -3,7 +3,7 @@
 ### Added
 
 - Law enforcement may now frisk people. Frisking is a quick action that can be done on a non-handcuffed person that simply tells you if they have a weapon.
-- Law enforcement may now search people. Searching can be done on handcuffed individuals that one is dragging and brings up a full inventory display of that person, with the ability to, for now, drop the target's items onto the floor.
+- Law enforcement may now search people. Searching can be done on handcuffed individuals and brings up a full inventory display of that person, with the ability to, for now, drop the target's items onto the floor.
 - New town on Coral Key off US 1, dubbed Delfino (Unfinished just like Leesburg so it has plenty of mock buildings)
   - Has a used car dealership where you can find vehicles for cheaper but in limited colors (other disadvantages to buying "used" will be added soon), as well as spawn vehicles
   - Has a dock (with a couple more coming soon)
