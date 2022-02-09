@@ -3,6 +3,7 @@
 ### Fixed
 
 - Fixed some lag issues
+- Misc bug fixes
 
 ## [0.10.0](#0.10.0) (2/7/2022)
 
