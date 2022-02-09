@@ -1,3 +1,13 @@
+## [0.10.2](#0.10.2) (2/8/2022)
+
+### Added
+
+- Manual siren (V) for emergency vehicles
+
+### Changed
+
+- Airhorn/siren behavior for emergency vehicles
+
 ## [0.10.1](#0.10.1) (2/8/2022)
 
 ### Fixed
