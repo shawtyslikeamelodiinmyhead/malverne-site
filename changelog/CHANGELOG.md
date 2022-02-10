@@ -1,3 +1,9 @@
+## [0.10.5](#0.10.5) (2/10/2022)
+
+### Fixed
+
+- Fixed issue with shops not working
+
 ## [0.10.4](#0.10.4) (2/10/2022)
 
 ### Fixed
