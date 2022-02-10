@@ -1,5 +1,9 @@
 ## [0.10.4](#0.10.4) (2/10/2022)
 
+### Fixed
+
+- Fixed action bug caused by last patch
+
 ## [0.10.3](#0.10.3) (2/9/2022)
 
 ### Added
