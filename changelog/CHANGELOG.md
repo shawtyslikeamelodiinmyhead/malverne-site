@@ -1,3 +1,17 @@
+## [0.10.3](#0.10.3) (2/9/2022)
+
+### Added
+
+- Hank's Hardware building
+- FLHSMV building (no interior yet)
+- Some additional admin functionality
+- Another song in menu music
+
+### Fixed
+
+- Fixed action bug that often occured with actions in close proximity (you no longer need to walk away for it to update)
+- Fixed road decals overlapping messages
+
 ## [0.10.2](#0.10.2) (2/8/2022)
 
 ### Added
