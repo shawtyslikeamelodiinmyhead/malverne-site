@@ -6,6 +6,8 @@
   - Taxi company located in Delfino. This job is not automated (at least for now)—we recommend drivers collect payment with the drop cash feature before they take riders to their destination
   - It has a limit of the amount of players that can work for them at one time
   - Presence on civilian job "teams" will not persist between sessions
+  - _Note: The taxi light is not functional yet. This will be patched in soon_
+  - _Note: There will be a way to hand money to people rather than dropping it for everyone. This will be patched in soon_
 - New notification design
 - New "player menu" which is a combination of the old inventory menu and the pause menu from pre-alpha
   - Character tab
