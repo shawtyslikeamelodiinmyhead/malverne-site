@@ -1,3 +1,58 @@
+## [0.11.0](#0.11.0) (2/26/2022)
+
+### Added
+
+- The first civilian job!
+  - Taxi company located in Delfino. This job is not automated (at least for now)—we recommend drivers collect payment with the drop cash feature before they take riders to their destination
+  - It has a limit of the amount of players that can work for them at one time
+  - Presence on civilian job "teams" will not persist between sessions
+- New notification design
+- New "player menu" which is a combination of the old inventory menu and the pause menu from pre-alpha
+  - Character tab
+    - A view of your character's vitals, with room for more to come when the health system is expanded
+    - A larger, more readable inventory menu
+  - Settings tab
+  - Controls tab, lets you view all of the game's key bindings, sorted by category (player, car, gun)
+  - Server tab
+    - Player list
+    - Server uptime, player count, and game version
+  - Over time, more of the UI will adopt this fullscreenish style, rather than the small menu boxes
+- Client performance improvements
+- Ability to surrender. You will not have access to your inventory while surrendered
+- Ability to drop cash
+- More shallow beach area in Leesburg
+- Added SO/FR logos to their front doors
+
+### Changed
+
+- Salaries are no longer automatically deposited into your bank account. You must now manually collect them in cash at your place of work, or if it is civilian welfare, collect it from the county services building in Leesburg. Then you can go to the nearest bank and deposit it. The business/office will only hold up to $500 of payroll, and if the balance goes above that amount, you won't be paid (forces you to go collect payroll)
+- Mouse is now hidden unless in a menu, and the camera now follows your mouse movements, Broadview plays more like other third-person games in this sense
+  - If you need to move your mouse outside of the game, just press Alt+Tab like any other game
+- Only some tools auto-rotate your character, like weapons
+- Rules updated to version 2
+- Clock and version hud made more visible
+- Slightly changed water appearance
+- Slightly adjusted sea/lake level
+- Night has been made slightly brighter for playability reasons
+- Weather probability tweaks
+- Weather now slightly affects water wave size/speed
+- Players that are being dragged now lose all controls
+- Locked doors that shouldn't have been unlocked
+- You can now only see if an item is department owned if you are apart of that department
+- Changed Colby .45 sound
+- Slightly randomized pitch for gun sounds
+
+### Fixed
+
+- Fixed transfer money dupe bug
+- Fixed bugs with weather system
+- Fixed color issue with terragon
+- Fixed some issues with UI causing lag
+- Fixed windshield citation interaction position
+- Fixed bug with textbox input
+
+Data has also been reset due to the money dupe issue
+
 ## [0.10.5](#0.10.5) (2/10/2022)
 
 ### Fixed
@@ -28,11 +83,11 @@
 
 ### Added
 
-- Manual siren (V) for emergency vehicles
+- Manual siren (V) for emergency cars
 
 ### Changed
 
-- Airhorn/siren behavior for emergency vehicles
+- Airhorn/siren behavior for emergency cars
 
 ## [0.10.1](#0.10.1) (2/8/2022)
 
@@ -48,12 +103,12 @@
 - Law enforcement may now frisk people. Frisking is a quick action that can be done on a non-handcuffed person that simply tells you if they have a weapon.
 - Law enforcement may now search people. Searching can be done on handcuffed individuals and brings up a full inventory display of that person, with the ability to, for now, drop the target's items onto the floor.
 - New town on Coral Key off US 1, dubbed Delfino (Unfinished just like Leesburg so it has plenty of mock buildings)
-  - Has a used car dealership where you can find vehicles for cheaper but in limited colors (other disadvantages to buying "used" will be added soon), as well as spawn vehicles
+  - Has a used car dealership where you can find cars for cheaper but in limited colors (other disadvantages to buying "used" will be added soon), as well as spawn cars
   - Has a dock (with a couple more coming soon)
   - More rural feel for this town
-- Leesburg Used Cars rebranded to Leesburg Aerostar (Now only sells Aerostar vehicles), now has an interior
+- Leesburg Used Cars rebranded to Leesburg Aerostar (Now only sells Aerostar cars), now has an interior
 - A couple buildings now have interiors
-- Ambulance vehicle inventory can now be accessed through on the driver's side rear storage
+- Ambulance car inventory can now be accessed through on the driver's side rear storage
 - One more patrol car added to BCSO fleet
 
 ### Changed
@@ -66,9 +121,9 @@
 - Opened doors now close around 30 seconds after they are opened
 - Several building windows have been separated into multiple parts so that they can be individually broken
 - All team-related actions have now been switched to the group. Now, the only use for "Clocking In" is getting paid, you can still access everything otherwise
-- BCFR command vehicle now uses same siren as ambulance
+- BCFR command car now uses same siren as ambulance
 - The server will now always start at 12 PM, that way new players can get more oriented because most businesses will be open
-- Patriots with a topper (Aka the BCFR command vehicle) no longer have bed seating
+- Patriots with a topper (Aka the BCFR command car) no longer have bed seating
 
 ### Fixed
 
@@ -90,7 +145,7 @@ Data has been reset
 
 - Players can now be booked and incarcerated by law enforcement
 - Law enforcement can now perform a records query at a computer in their station
-  - Includes citations, arrests, registered vehicles, and other miscellaneous info (as of now, vehicles are automatically registered when you buy them)
+  - Includes citations, arrests, registered cars, and other miscellaneous info (as of now, cars are automatically registered when you buy them)
   - More computers in the BCSO station once we continue to model it, but you can use the booking computers for now
 
 ### Changed:
@@ -135,7 +190,7 @@ Data has also been reset
 - More car spawn pads at Leesburg car dealership
 - Ability for law enforcement to:
   - Issue citations
-  - Handcuff, drag, and put/take players out of vehicles
+  - Handcuff, drag, and put/take players out of cars
   - Place detainees in holding cells
   - (BOOKING NOT IMPLEMENTED YET. WILL BE ADDED IN AN EMERGENCY PATCH. FOR NOW, LEAVE THEM IN THE HOLDING CELL FOR A FEW MINUTES.)
 - Ability for civilians to pay citations at the Sheriff's Office (until courthouse is built)
@@ -143,10 +198,10 @@ Data has also been reset
   - They can be interacted with by select teams to make the lights flash red
 - More icons to speedometer hud to reflect locks, ignition, and engine
 - Pay rates depending on rank, definitely temporary and will be adjusted
-- Gas can tool, which can be filled up at gas pumps and used to fill up vehicle tanks
+- Gas can tool, which can be filled up at gas pumps and used to fill up car tanks
 - Overhauled inventory system and abstracted it away from players, with new additions like:
   - A team gear locker menu (aka armory for BCSO)
-  - Vehicle inventories
+  - Car inventories
   - ... with frisking coming soon
 
 ### Changed:
@@ -165,8 +220,8 @@ Data has also been reset
 - Dropped items now disappear after a few minutes
 - Increase pepper spray range
 - Car engines now only cold start on the first start
-- Vehicles can now be exited while locked unless handcuffed
-- Vehicle locks can now be controlled by the front passenger
+- Cars can now be exited while locked unless handcuffed
+- Car locks can now be controlled by the front passenger
 
 ### Fixed:
 
@@ -230,7 +285,7 @@ Data has also been reset
 
 - Converted most UI to Roact framework. Some changes as a result:
   - You can no longer despawn occupied cars
-  - BCSO/BCFR fleet manager: Did away with the "sign in, sign out" system, you can now spawn or despawn any vehicle so long as it is not occupied, but it will show you who took out one that is spawned.
+  - BCSO/BCFR fleet manager: Did away with the "sign in, sign out" system, you can now spawn or despawn any car so long as it is not occupied, but it will show you who took out one that is spawned.
     - This was mostly done for simplicity reasons as well as compatibility with BCFR—before, for example, if the spawner of an ambulance left, the ambulance would disappear, leaving the rest of the crew stranded. This will no longer happen as it is attached to the team itself, not the player.
 - Very basic gun framework is in. The Colby .45 has been added and can be purchased at the gun store in Leesburg.
 - Updated knife hit detection
@@ -287,7 +342,7 @@ Data has also been reset
   - Still working on the smoothing for other character's updates, it's a little wonky at the moment
 - The mouse is now hidden and the camera is locked during use of any tool
   - Soon, the mouse will be hidden during ALL gameplay except when a popup menu is on your screen, because there will be no HUD that requires a mouse click.
-- Vehicle windows are now breakable, this does not save for now
+- Car windows are now breakable, this does not save for now
 - Streetlight timing fixes
 - Gas pump system should be more consistent
 
@@ -301,7 +356,7 @@ Data has also been reset
   - Bridge to island #2 raised
   - Various lights added around buildings
 - Notification sounds added
-- Vehicle HUD changed to a speedometer
+- Car HUD changed to a speedometer
 - Traffic lights
 - Item shop framework + first item shop, the gun store
 - New transitional randomized weather system.
@@ -350,7 +405,7 @@ Data has also been reset
 - Seats are back, and can be sat in via interaction
 - Gun shop bound to business "Old Line Armory"
 - More gun shop interior work
-- Minor tuning to vehicle steering
+- Minor tuning to car steering
 - Locked various unfinished buildings
 - Registered laundromat as a building
 - Fixed a bug that caused not all items to drop on death
@@ -369,18 +424,18 @@ Data has also been reset
   - (Upcoming features):
     - Breaking glass
     - Blood effects
-- Vehicle chassis refactor
+- Car chassis refactor
   - Torque and acceleration are now factored differently based on gear
-  - Adjusted driving stats of all vehicles (WIP and untested-please provide feedback)
+  - Adjusted driving stats of all cars (WIP and untested-please provide feedback)
   - You can drive with keyboard whether you have a controlled plugged in or not
   - Fixed terragon's torque slope correction (It was backwards)
   - No longer needs to be unlocked while refueling
   - Readded hold-ignition to start the car
   - You can no longer turn the wheel while the car is off
 - New interaction system
-  - New design with a subject name above many interactions now, like "Vehicle" or "Door"
+  - New design with a subject name above many interactions now, like "Car" or "Door"
   - Display texts have all been changed to be more generic, like "Talk" or "Open" rather than "Bank Teller" or "Open Door"
-  - Can now enter vehicles with a tool equipped (it will unequip as you enter. this could be buggy)
+  - Can now enter cars with a tool equipped (it will unequip as you enter. this could be buggy)
   - It now checks for obstructions between you and the object
     - For example, you cannot get in cars through walls.
     - This is bound to be buggy-let us know about any interactions that are hard to select.
@@ -394,7 +449,7 @@ Data has also been reset
 - BCSO fleet changes
   - -Centurion #18
   - +Terragon #22
-- Character addons such as BCSO's temporary belt and campaign hat now hide while in a vehicle
+- Character addons such as BCSO's temporary belt and campaign hat now hide while in a car
 - Dealership default color changed (to encourage players to try colors other than black)
 - Adjusted permissions for various interactions
 - Fixed start menu music randomly breaking
@@ -415,7 +470,7 @@ Data has also been reset
 
 ## [0.1.2](#0.1.2) (1/22/2021)
 
-- Vehicle fx and huds should now update properly
+- Car fx and huds should now update properly
 - Made the watermark slighty less visible
 
 ## [0.1.1](#0.1.1) (1/21/2021)
@@ -428,19 +483,19 @@ Data has also been reset
 
 ## [0.1.0](#0.1.0) (1/21/2021)
 
-- Vehicle gas!
-  - Added a gas cap to all vehicles except ambulance (will be added in patch)
+- Car gas!
+  - Added a gas cap to all cars except ambulance (will be added in patch)
   - Drains based on gear and speed.
   - It can be filled up at the gas station pumps.
     - Park outside the pump, turn the engine off, get out, and walk up to the pump.
     - As of now you can only fill the tank using all of your available cash.
     - The gas station will be remodeled soon.
-  - When empty, your vehicle will turn off.
-  - It saves with your vehicle.
-  - Vehicles ordered by smallest to largest tank:
+  - When empty, your car will turn off.
+  - It saves with your car.
+  - Cars ordered by smallest to largest tank:
     - Centurion, Patriot, Terragon, Ambulance
-- (Temporarily) removed vehicle ignition-hold
-- Optimized some vehicle code
+- (Temporarily) removed car ignition-hold
+- Optimized some car code
 - Starting time is now random
 - Centralized random number sources
 - Added error/warning icons in bottom right of HUD
@@ -456,7 +511,7 @@ Data has also been reset
 ## [0.0.6](#0.0.6) (1/19/2021)
 
 - Radio now only makes sound if message received on current frequency
-- Fixed vehicle flip key
+- Fixed car flip key
 - Enable BCSO patches for recruits
 - Slightly decreased ambulances steer rate
 
