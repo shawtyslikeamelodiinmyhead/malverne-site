@@ -1,3 +1,29 @@
+## [0.11.2](#0.11.2) (NEXT)
+
+### Added
+
+- Added some more security measures to the game
+- Gas cap to FR ambulance
+
+### Changed
+
+- Pepper spray now has more range, and now also depletes all stamina from the target
+- Notification title and content has new line break
+- Now only exterior doors will auto-close
+- Slightly tightened spread on CSG-12
+
+### Fixed
+
+- Fixed wind ambience sound
+- Fixed FR bay doors, again
+- Fixed doors that should not have been unlocked
+- Fixed some script errors from bug reports
+- Fixed bug with pepper spray effects
+
+### Removed
+
+- Removed spawns in Delfino that are in the completely undeveloped part of the town
+
 ## [0.11.1](#0.11.1) (2/26/2022)
 
 ### Fixed
