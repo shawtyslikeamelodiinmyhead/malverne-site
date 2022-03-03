@@ -1,3 +1,12 @@
+## [0.11.3](#0.11.3) (3/2/2022)
+
+### Fixed
+
+- Fixed not being able to arrest those employed with Cab Co
+- Fixed issue with tool animations playing after unequipped
+- Fixed long decimals in player menu weight bar
+- Fixed civilian job cars not despawning after player left
+
 ## [0.11.2](#0.11.2) (3/2/2022)
 
 ### Added
