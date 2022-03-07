@@ -9,17 +9,9 @@ body {
 h1 {
 	font-weight: 600;
 	font-family: "Kanit", sans-serif;
-	font-size: 38pt;
+	font-size: 48pt;
 	line-height: 3rem;
 	margin-bottom: 1rem;
-}
-
-h2 {
-	font-weight: 400;
-	font-family: museo-sans, sans-serif;
-	font-size: 16pt;
-	opacity: 0.75;
-	margin-top: 1rem;
 }
 
 img {
@@ -60,16 +52,9 @@ a {
 	margin-left: 0.25rem;
 	margin-right: 0.25rem;
 	height: 48px;
-	opacity: 0.5;
+	opacity: 1;
 	transition: opacity 500ms ease;
 	vertical-align: center;
-}
-
-.bottom-right img.twitter {
-	margin-left: -0.25rem;
-	margin-right: -0.25rem;
-	height: 56px;
-	vertical-align: -4px;
 }
 
 .bottom-right img.discord {
@@ -83,15 +68,10 @@ a {
 	filter: brightness(0) invert(1);
 }
 
-.bottom-right img.email {
-	height: 32px;
-	vertical-align: 8px;
-}
-
 .bottom-right img:hover {
 	opacity: 0.75;
 }
 
 .bottom-right img:active {
-	opacity: 1;
+	opacity: 0.5;
 }
