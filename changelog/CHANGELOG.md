@@ -1,3 +1,63 @@
+## [0.12.0](#0.12.0) (3/8/2022)
+
+### Added
+
+- Added new pistol, Obeya FBW
+  - 9mm ammunition
+  - 15 round magazine
+  - Weaker than Colby 45 (base damage 22)
+  - Shoots faster than Colby 45
+- Added new rifle, ATAC-786
+  - 5.56x45 ammunition
+  - 30 round magazine
+  - Weaker than both pistols
+  - Faster fire rate and more range and velocity than both pistols
+- Added 3 new songs to menu music
+- Added firearm chamber system
+  - You can have magsize + 1 if you reload while there is a bullet in the chamber
+  - There are different reloading animations based on whether there is a bullet in the chamber is full or not
+  - Slide will now be affected by whether the chamber is empty or not
+- Firearms now have a click sound if they are empty
+- Added "Toggle ADS" game setting
+- Moderation webhook for kicked users
+- Added italian restaurant building (has dining room interior)
+- Added lawfirm filler building
+- Added ATM outside Delfino Used Cars
+
+### Changed
+
+- Changes to Colby 45:
+  - Now does a little bit more damage (base damage 29)
+  - Enlarged slightly
+  - Now positioned relative to right leg when equipped without a holster
+  - Re-animated
+  - Re-colored/textured
+- Changes to Colby CSG-12:
+  - Re-animated
+  - Re-colored/textured
+  - Slightly increased fire-rate
+  - Made it smaller
+  - Changed fire sound
+- Rescripted character extras (like bcso toolbelt), now can only be used if in team group
+- Re-colored BCSO uniform extras (like stars/nameplate) to match badge color
+- Sped up item shop transition
+- Lessened rate limit for external records queries (players not ingame)
+- Players who are sitting can now be handcuffed
+
+### Fixed
+
+- Fixed interaction bug causing keypresses to sometimes not do anything
+- Fixed the logic that unlocks doors for businesses
+- Fixed button sounds
+- Fixed neon bleed from flashlight model
+- Fixed player list not updating
+- Fixed player menu "server uptime" showing player session time instead of the actual server uptime
+- Some performance fixes
+
+## Removed
+
+- Removed 1 song from menu music
+
 ## [0.11.3](#0.11.3) (3/2/2022)
 
 ### Fixed
