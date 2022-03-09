@@ -1,3 +1,14 @@
+## [0.12.2](#0.12.2) (3/9/2022)
+
+### Changed
+
+- You no longer lose stamina after jumping out of a seat
+
+### Fixed
+
+- Fixed issue with seat game state
+- Fixed interaction issue allowing you to sit in a seat through a window
+
 ## [0.12.1](#0.12.1) (3/8/2022)
 
 ### Changed
