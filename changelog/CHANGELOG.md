@@ -1,3 +1,18 @@
+## [0.12.1](#0.12.1)(NEXT)
+
+### Changed
+
+- The cage glass in the BCSO cage is now breakable
+
+### Fixed
+
+- Fixed more doors not opening/closing when supposed to
+- Fixed ATAC/ammo not being purchasable in the gun store
+
+### Removed
+
+- Temporarily removed water wave changing as it's glitchy
+
 ## [0.12.0](#0.12.0) (3/8/2022)
 
 ### Added
