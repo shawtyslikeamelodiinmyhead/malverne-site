@@ -2,6 +2,7 @@
 
 ### Changed
 
+- Enlarged interaction hitbox for all doors
 - You no longer lose stamina after jumping out of a seat
 
 ### Fixed
