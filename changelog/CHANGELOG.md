@@ -7,7 +7,7 @@
 
 ### Fixed
 
-- Fixed issue with seat game state
+- Fixed issue with seats glitching you if you sit too fast after getting up
 - Fixed interaction issue allowing you to sit in a seat through a window
 
 ## [0.12.1](#0.12.1) (3/8/2022)
