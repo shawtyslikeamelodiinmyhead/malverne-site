@@ -1,3 +1,18 @@
+## [0.12.3] (#0.12.3) (3/11/2022)
+
+### Added
+
+- Some assorted perf optimizations
+
+### Changed
+
+- Chat is now disabled when not spawned in/alive
+- Radio now moves down when chatting
+
+### Fixed
+
+- Fixed interactions not appearing properly with cars
+
 ## [0.12.2](#0.12.2) (3/9/2022)
 
 ### Changed
