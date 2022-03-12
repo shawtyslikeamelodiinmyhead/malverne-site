@@ -3,6 +3,7 @@
 ### Fixed
 
 - Fixed car spawning
+- Fixed inability to use radio while sitting
 
 ## [0.12.3](#0.12.3) (3/11/2022)
 
