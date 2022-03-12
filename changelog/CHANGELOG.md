@@ -1,9 +1,18 @@
-## [0.12.4](#0.12.4)(3/11/2021)
+## [0.12.5](#0.12.5) (3/12/2021)
+
+### Changed
+
+- Slightly changed look of confirmation dialog box
+
+### Fixed
+
+- Fixed inability to use radio while sitting
+
+## [0.12.4](#0.12.4) (3/11/2021)
 
 ### Fixed
 
 - Fixed car spawning
-- Fixed inability to use radio while sitting
 
 ## [0.12.3](#0.12.3) (3/11/2022)
 
