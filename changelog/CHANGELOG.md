@@ -1,4 +1,14 @@
-## [0.12.5](#0.12.5) (3/12/2021)
+## [0.12.6](#0.12.6) (3/13/2022)
+
+### Changed
+
+- Moved flashlight from gun store to hardware store
+
+### Fixed
+
+- Fixed car inventory not saving
+
+## [0.12.5](#0.12.5) (3/12/2022)
 
 ### Changed
 
@@ -8,7 +18,7 @@
 
 - Fixed inability to use radio while sitting
 
-## [0.12.4](#0.12.4) (3/11/2021)
+## [0.12.4](#0.12.4) (3/11/2022)
 
 ### Fixed
 
