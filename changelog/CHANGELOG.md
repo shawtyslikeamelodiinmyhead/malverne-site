@@ -14,6 +14,7 @@
   - The interface is smaller
   - More performant as it uses new Roblox spatial queries
   - Some action names/subjects have been changed around
+- Item/cash drops are no longer collidable with characters or vehicles
 - Swapped many sounds to comply with Roblox audio privacy update
 - Improved Centurion third brake light appearance
 - Building numbers in windows have been converted to decals and will now disappear when the window is broken
@@ -23,6 +24,7 @@
 - Refactored client weather transitions
 - Moon and sun textures/sizes
 - Circular meters are now hidden when in player menu
+- Tourists now have access to the game
 
 ### Removed
 
