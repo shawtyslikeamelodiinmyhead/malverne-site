@@ -1,3 +1,33 @@
+## [0.13.0](#0.13.0) (NEXT NEXT NEXT NEXT NEXT)
+
+### Added
+
+- A couple new buildings have been added in Delfino
+- A radio tower has been added to Vista Key
+- Some map optimizations
+
+### Changed
+
+- Interaction system has been rewritten
+  - It now allows you to interact with multiple objects' actions at the same time
+  - If there are multiple interactions on screen with the same keybind, it will let you use the closest one
+  - The interface is smaller
+  - More performant as it uses new Roblox spatial queries
+  - Some action names/subjects have been changed around
+- Swapped many sounds to comply with Roblox audio privacy update
+- Improved Centurion third brake light appearance
+- Building numbers in windows have been converted to decals and will now disappear when the window is broken
+- More windows across the map have been separated into different panes
+- Due to the menu music being removed, you can now hear environment sounds in the start menu, so it's not dead silent
+- Increased bloom size
+- Refactored client weather transitions
+- Moon and sun textures/sizes
+- Circular meters are now hidden when in player menu
+
+### Removed
+
+- Menu music, for now
+
 ## [0.12.6](#0.12.6) (3/13/2022)
 
 ### Changed
