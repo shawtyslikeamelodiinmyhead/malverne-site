@@ -1,4 +1,15 @@
-## [0.13.0](#0.13.0) (NEXT NEXT NEXT NEXT NEXT)
+## [0.13.1](#0.13.1) (3/27/2022)
+
+### Fixed
+
+- Fixed gas pump interaction
+- Fixed being able to interact while in pickup truck bed
+
+### Removed
+
+- Disabled interaction sound for now until I can fix the flickering
+
+## [0.13.0](#0.13.0) (3/27/2022)
 
 ### Added
 
