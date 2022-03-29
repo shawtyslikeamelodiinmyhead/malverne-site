@@ -1,3 +1,20 @@
+## [0.13.2](#0.13.2) (3/29/2022)
+
+### Added
+
+- Setting for player connection notifications
+
+### Changed
+
+- Sparkles/other particles in characters will be removed
+
+### Fixed
+
+- Fixed a bug causing many UI elements to re-render unnecessarily
+- Fixed salary cap such that it will not go over the limit before trying to give next salary
+- Fixed sort order for inventory and controls menu lists
+- Fixed settings not loading client-side
+
 ## [0.13.1](#0.13.1) (3/27/2022)
 
 ### Fixed
