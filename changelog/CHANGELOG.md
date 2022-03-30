@@ -1,3 +1,10 @@
+## [0.13.3](#0.13.3) (3/29/2022)
+
+### Fixed
+
+- Fixed interactions not working properly after death
+- Fixed item shop not buying selected item
+
 ## [0.13.2](#0.13.2) (3/29/2022)
 
 ### Added
