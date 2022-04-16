@@ -1,3 +1,58 @@
+## [0.14.0](#0.14.0) 4/16/2022
+
+### Added
+
+- 3 more buildings (I know it's not a lot, but my builders have been busy with work)
+  - Florida Keys realty (has interior, no purpose yet)
+  - Icons bookstore (has interior, no purpose yet)
+  - Small business complex (no interior or purpose yet)
+- More building numbers to buildings missing them, switched up some numbers
+- A couple small wooden docks around the map
+- Modelled armory/armory checkout area in BCSO station
+- More computers around BCSO station
+- A "report" section has been added to citations and arrests. The report box is where you will detail the situation, whereas the charges box is just where you put the Florida statutes/County ordinances. This information is also available in records query, and the pay citation menu.
+- Health now saves
+- Cash balance view added to Bank/ATM UI, no longer closes automatically
+- USPS drop boxes around the map
+- Added pickup animation for items and cash
+- Remade keychain animations and added lock/unlock animation
+
+### Changed
+
+- The inventory UI has been spazzed up a bit, with icons, a more prominent slot number for tools and team owned designation, as well as a better sort order. Should be a lot more readable now
+- Most permissions that were previously tied to being in a team group, are now tied to being clocked in. We thought that the previous permission check would work, but as Broadview gets bigger, there is more potential for abuse. This applies to everything from door access, spawners, frisking/searching/handcuffing, and more.
+- You can no longer move when in a menu (other than the player menu), you will have to click the X to exit it now
+- Siren, light, and director controls have changed in hopes of being easier to use. Now, for example with the siren, you will press K to cycle through them. When you reach the end of the cycle, it will go back to the first siren. To turn the siren off, press Tab + K. This goes for the directors and lights as well.
+- Made door sounds louder
+- Road line decals have been reverted to old appearance for now, due to z-fighting issues
+- Local player's team is now visible in the player list, and local player is highlighted and at the top
+- Staff and developer icons in the player list
+- User ids now visible in player list for everyone
+- You can now only return department gear that is owned by that specific department
+- Whether an item is department-owned is now visible by everyone (experimenting with this, as it affects roleplay)
+- The medkits supplied by the BCSO armory now have 1 use compared to BCFR's 5
+- Staff flip key can now be used as passenger
+- ATAC-786 has been buffed from 20->26 damage (experimenting), increased fire rate from 350->400 RPM
+- Price hike across the board in the gun shop
+- Changed gun reloading tool display
+- Signs inside glass panes will now disappear when broken
+
+### Fixed
+
+- Fixed numerous UI bugs
+- Fixed interaction bugs
+- Fixed BCFR uniform accessories not removing when taking off uniform
+- Fixed Centurion third brake light appearance again
+- Fixed some errors not being readable
+- Fixed FOV glitch while using player menu in car
+- Fixed gun reload bug
+- Fixed ATAC reload chamber animation not using mag
+- Fixed being able to shift down to Park to 1st gear without holding brake
+
+### Removed
+
+- Spawn forcefield
+
 ## [0.13.3](#0.13.3) (3/29/2022)
 
 ### Fixed
