@@ -1,4 +1,11 @@
-## [0.14.0](#0.14.0) 4/16/2022
+## [0.14.1](#0.14.1) (4/18/2022)
+
+### Fixed
+
+- Fixed items not all being removed when people are jailed or die
+- Fixed interactions sometimes not unbinding
+
+## [0.14.0](#0.14.0) (4/16/2022)
 
 ### Added
 
