@@ -1,3 +1,11 @@
+## [0.14.2](#0.14.2) (4/22/2022)
+
+### Changed
+
+- Converted death menu to new UI framework
+- Health effect stays in death menu (redness when dead)
+- Made transition times shorter
+
 ## [0.14.1](#0.14.1) (4/18/2022)
 
 ### Fixed
