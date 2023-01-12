@@ -26,6 +26,7 @@
 		]
 		const land = L.imageOverlay("land.png", bounds).addTo(map)
 		const roads = L.imageOverlay("roads.png", bounds).addTo(map)
+		const buildings = L.imageOverlay("buildings.png", bounds).addTo(map)
 		const jurisdictions = L.imageOverlay("jurisdictions.png", bounds)
 
 		const baseLayers = {
@@ -33,6 +34,7 @@
 		}
 		const overlays = {
 			Roads: roads,
+			Buildings: buildings,
 			Jurisdictions: jurisdictions
 		}
 
