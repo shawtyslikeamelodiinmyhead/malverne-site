@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Broadview County Map</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+			integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+			crossorigin=""
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+	</head>
+	<body>
+		<div id="map"></div>
+	</body>
+
+	<script>
+		const map = L.map("map", {crs: L.CRS.Simple})
+		const bounds = [
+			[0, 0],
+			[2048, 2048]
+		]
+		const land = L.imageOverlay("land.png", bounds).addTo(map)
+		const roads = L.imageOverlay("roads.png", bounds).addTo(map)
+		const jurisdictions = L.imageOverlay("jurisdictions.png", bounds)
+
+		const baseLayers = {
+			Land: land
+		}
+		const overlays = {
+			Roads: roads,
+			Jurisdictions: jurisdictions
+		}
+
+		L.control.layers(baseLayers, overlays).addTo(map)
+		L.control.attribution().setPrefix(false).addAttribution("Broadview County").addTo(map)
+
+		map.fitBounds(bounds)
+	</script>
+</html>
