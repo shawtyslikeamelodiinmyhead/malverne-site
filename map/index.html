@@ -36,7 +36,7 @@
 			Jurisdictions: jurisdictions
 		}
 
-		L.control.layers(baseLayers, overlays).addTo(map)
+		L.control.layers(baseLayers, overlays, {collapsed: false}).addTo(map)
 		L.control.attribution().setPrefix(false).addAttribution("Broadview County").addTo(map)
 
 		map.fitBounds(bounds)
