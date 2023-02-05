@@ -1,0 +1,11 @@
+html,
+body {
+	margin: 0px;
+	background-color: #1d1d2e;
+}
+
+#map {
+	height: 100vh;
+	background: none;
+	opacity: 1;
+}

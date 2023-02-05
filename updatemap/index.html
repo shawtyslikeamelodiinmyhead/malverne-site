@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Broadview County Map</title>
+
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+			integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+			crossorigin=""
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+		<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
+	</head>
+	<body>
+		<div id="map"></div>
+	</body>
+
+	<script>
+		const map = L.map("map", {crs: L.CRS.Simple})
+		const bounds = [
+			[0, 0],
+			[1024, 1024]
+		]
+		const land = L.imageOverlay("land.svg", bounds).addTo(map)
+		const roads = L.imageOverlay("roads.svg", bounds).addTo(map)
+		const buildings = L.imageOverlay("buildings.svg", bounds).addTo(map)
+		const busRoutes = L.imageOverlay("busRoutes.svg", bounds)
+		const jurisdictions = L.imageOverlay("jurisdictions.svg", bounds)
+
+		const baseLayers = {
+			Land: land
+		}
+		const overlays = {
+			Roads: roads,
+			Buildings: buildings,
+			"Bus Routes": busRoutes,
+			Jurisdictions: jurisdictions
+		}
+
+		L.control.layers(baseLayers, overlays, {collapsed: false}).addTo(map)
+		L.control.attribution().setPrefix(false).addAttribution("Broadview County").addTo(map)
+
+		map.fitBounds(bounds)
+	</script>
+</html>
