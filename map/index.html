@@ -31,6 +31,8 @@
 		const land = L.imageOverlay("land.svg", bounds).addTo(map)
 		const roads = L.imageOverlay("roads.svg", bounds).addTo(map)
 		const buildings = L.imageOverlay("buildings.svg", bounds).addTo(map)
+		const countyRoute = L.imageOverlay("countyRoute.svg", bounds)
+		const expressRoute = L.imageOverlay("expressRoute.svg", bounds)
 		const jurisdictions = L.imageOverlay("jurisdictions.svg", bounds)
 
 		const baseLayers = {
@@ -39,6 +41,8 @@
 		const overlays = {
 			Roads: roads,
 			Buildings: buildings,
+			"County Route": countyRoute,
+			"Express Route": expressRoute,
 			Jurisdictions: jurisdictions
 		}
 
